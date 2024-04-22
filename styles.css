@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#parkingList {
+    margin-top: 20px;
+}
+
+.parking-spot {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-image: linear-gradient(to right, #ff3860, #ff6347); /* Gradient background */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding around the navbar */
+}
+
+.container {
+    max-width: 1200px; /* Max width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Padding around the content */
+}
+
+.logo {
+    font-size: 24px; /* Font size of the logo */
+    font-weight: bold; /* Bold font weight */
+    text-decoration: none; /* Remove underline from the logo */
+    color: #fff; /* Text color of the logo */
+}
+
+.spacer {
+    flex-grow: 1; /* Grow and fill the remaining space */
+}
+
+.nav-links {
+    list-style: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+    display: inline-block; /* Display navigation links inline */
+    margin-right: 20px; /* Margin between navigation links */
+}
+
+.nav-links li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation link */
+}
+
+.nav-links li a {
+    color: #fff; /* Text color of navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+    font-size: 16px; /* Font size of navigation links */
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
